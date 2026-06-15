@@ -14,7 +14,7 @@ need, and the client-ready outputs they produce.
 | Module | Name | Status |
 |--------|------|:------:|
 | **1** | **Client Onboarding Agent** | ✅ Built |
-| 2 | Month-End Close Agent | Planned |
+| **2** | **Month-End Close Agent** | ✅ Built |
 | 3 | Client Communication Agent | Planned |
 | **4** | **Cleanup Project Agent** | ✅ Built |
 | 5 | SOP Builder Agent | Planned |
@@ -23,7 +23,8 @@ need, and the client-ready outputs they produce.
 
 We're building **one module at a time**. Modules 1, 4, and 6 form the spine of the MVP
 and run as one client journey: onboard and diagnose the books (1) → sell the one-time
-cleanup (4) → sell the recurring monthly engagement (6).
+cleanup (4) → sell the recurring monthly engagement (6). **Module 2** is the monthly
+delivery engine that runs every month after.
 
 ---
 
@@ -105,6 +106,32 @@ module-6-proposal-generator/
 
 > 🔗 Module 1 → Module 6: feed Module 1's **Risk Assessment** in as the complexity
 > input. And Module 6 is the natural "Option C" that follows a Module 4 cleanup.
+
+---
+
+## ▶ Module 2 — Month-End Close Agent (available now)
+
+The recurring delivery engine. Each month, turn bank/CC balances + reconciliation notes
+into a tailored month-end checklist, suggested journal entries (for your review — the
+Agent never posts), and a client-ready summary.
+
+**Start here → [`module-2-month-end-close-agent/README.md`](./module-2-month-end-close-agent/README.md)**
+
+```
+module-2-month-end-close-agent/
+├── README.md                         ← module overview + quick start
+├── month-end-close-agent.md          ← THE copy-paste Agent prompt
+├── example-walkthrough.md            ← worked example (Brightwave Café, June close)
+├── inputs/
+│   └── close-intake-checklist.md     (balances, recon notes, recurring items)
+└── outputs/
+    ├── month-end-checklist-template.md
+    ├── journal-entry-suggestions-template.md
+    └── client-summary-template.md
+```
+
+> ⚠️ The Agent **suggests and flags** — it does not post to QuickBooks. You verify every
+> entry and post it yourself.
 
 ---
 
