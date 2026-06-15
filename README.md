@@ -200,6 +200,26 @@ sellable separately.
 
 ---
 
+## ▶ Prompt Library — 50 single-task prompts (available now)
+
+Quick, copy-paste prompts for one-off jobs (the module agents are full workflows; the
+library is for fast single tasks). 50 prompts across 5 categories.
+
+**Start here → [`prompt-library/README.md`](./prompt-library/README.md)**
+
+- `01` Client onboarding & cleanup · `02` Month-end close & reconciliation · `03` Client communication & emails · `04` Sales, proposals & pricing · `05` Firm operations & marketing — **10 prompts each.**
+
+## ▶ SOP Library — 10 ready-to-adopt SOPs (available now)
+
+Ten fully written standard operating procedures a firm can adopt and customize today
+(Module 5 generates *new* SOPs from your workflows; this gives you the core 10 done).
+
+**Start here → [`sop-library/README.md`](./sop-library/README.md)**
+
+- Onboarding · Weekly categorization · Reconciliation · Month-end close · Cleanup · AP/bill pay · AR/invoicing & collections · Client reporting · Payroll · Year-end/1099 & CPA handoff.
+
+---
+
 ## Packaging (planned)
 
 - **Starter — $97:** MVP (onboarding + cleanup + proposal agents, 50 prompts, SOP library)
