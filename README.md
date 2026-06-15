@@ -241,11 +241,20 @@ Ten fully written standard operating procedures a firm can adopt and customize t
 
 ---
 
-## Packaging (planned)
+## Packaging & sales
 
-- **Starter — $97:** MVP (onboarding + cleanup + proposal agents, 50 prompts, SOP library)
-- **Pro — $297:** All 6 agents + templates + bonus toolkits
-- **Premium — $497:** Everything + advanced workflows
+Ready-to-use sales copy and tier definitions live in [`sales/`](./sales/):
+
+- **Sales page copy** → [`sales/SALES-PAGE.md`](./sales/SALES-PAGE.md) — headline, problem/solution, what's inside, pricing table, guarantee, and FAQ.
+- **Tier packaging** → [`sales/tiers/`](./sales/tiers/README.md) — exactly what's in each bundle, by folder.
+
+| Tier | Price | Includes |
+|------|:-----:|----------|
+| [**Starter**](./sales/tiers/starter-97.md) | **$97** | Onboarding + Cleanup + Proposal agents · 50-prompt library |
+| [**Pro**](./sales/tiers/pro-297.md) ⭐ | **$297** | Starter **+** Month-End Close, Communication, SOP Builder · 10-SOP library · Setup pack |
+| [**Premium**](./sales/tiers/premium-497.md) | **$497** | Pro **+** all 3 bonus toolkits · free updates |
+
+*Each tier includes everything in the tier below it.*
 
 ---
 
