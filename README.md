@@ -17,14 +17,14 @@ need, and the client-ready outputs they produce.
 | **2** | **Month-End Close Agent** | ✅ Built |
 | **3** | **Client Communication Agent** | ✅ Built |
 | **4** | **Cleanup Project Agent** | ✅ Built |
-| 5 | SOP Builder Agent | Planned |
+| **5** | **SOP Builder Agent** | ✅ Built |
 | **6** | **Proposal Generator** | ✅ Built |
 | Bonus | QuickBooks Cleanup Toolkit · Content Engine · Discovery Call Assistant | Planned |
 
-We're building **one module at a time**. Modules 1, 4, and 6 form the spine of the MVP
-and run as one client journey: onboard and diagnose the books (1) → sell the one-time
-cleanup (4) → sell the recurring monthly engagement (6). **Module 2** is the monthly
-delivery engine that runs every month after.
+**All six core agents are built.** Together they run the full client journey: onboard
+and diagnose the books (1) → sell the one-time cleanup (4) → sell the recurring monthly
+engagement (6) → deliver the monthly close (2) → communicate at every touchpoint (3) →
+document and delegate the whole thing (5).
 
 ---
 
@@ -157,6 +157,33 @@ module-3-client-communication-agent/
 
 > 🔗 Delivers Module 2's client summary, supports Module 4 & 6 sales follow-ups, and
 > pairs with Module 1's missing-documents list.
+
+---
+
+## ▶ Module 5 — SOP Builder Agent (available now)
+
+How the firm scales beyond you. Describe any workflow (rough is fine) and get back a
+full SOP, a working checklist, and a new-hire training document — so you can delegate,
+hire, and stay consistent.
+
+**Start here → [`module-5-sop-builder-agent/README.md`](./module-5-sop-builder-agent/README.md)**
+
+```
+module-5-sop-builder-agent/
+├── README.md                         ← module overview + quick start
+├── sop-builder-agent.md              ← THE copy-paste Agent prompt
+├── example-walkthrough.md            ← worked example (weekly categorization → 3 docs)
+├── starter-sop-library.md            ← the 10 SOPs every firm should build, in order
+├── inputs/
+│   └── workflow-intake-guide.md
+└── outputs/
+    ├── sop-template.md
+    ├── checklist-template.md
+    └── training-document-template.md
+```
+
+> 🔗 Turn Modules 1, 2, and 4's checklists into permanent firm SOPs — and document how
+> your team runs every agent consistently.
 
 ---
 
