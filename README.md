@@ -16,13 +16,14 @@ need, and the client-ready outputs they produce.
 | **1** | **Client Onboarding Agent** | ✅ Built |
 | 2 | Month-End Close Agent | Planned |
 | 3 | Client Communication Agent | Planned |
-| 4 | Cleanup Project Agent | Planned |
+| **4** | **Cleanup Project Agent** | ✅ Built |
 | 5 | SOP Builder Agent | Planned |
 | 6 | Proposal Generator | Planned |
 | Bonus | QuickBooks Cleanup Toolkit · Content Engine · Discovery Call Assistant | Planned |
 
-We're building **one module at a time**, starting with onboarding — the highest-stakes
-part of every engagement.
+We're building **one module at a time**. Modules 1 and 4 form the spine of the MVP:
+onboard a client and diagnose the books, then turn that diagnosis into a sellable,
+profitable cleanup engagement.
 
 ---
 
@@ -49,6 +50,34 @@ module-1-client-onboarding-agent/
     ├── risk-assessment-template.md
     └── onboarding-checklist-template.md
 ```
+
+---
+
+## ▶ Module 4 — Cleanup Project Agent (available now)
+
+Turn what you know about a messy set of books (ideally Module 1's Cleanup Plan + Risk
+Assessment) into a sellable, profitable engagement: scope, client-ready proposal with
+tiered options, phased timeline, and an internal pricing build-up.
+
+**Start here → [`module-4-cleanup-project-agent/README.md`](./module-4-cleanup-project-agent/README.md)**
+
+```
+module-4-cleanup-project-agent/
+├── README.md                         ← module overview + quick start
+├── cleanup-project-agent.md          ← THE copy-paste Agent prompt
+├── example-walkthrough.md            ← worked example (Brightwave Café cleanup)
+├── inputs/
+│   ├── cleanup-intake-checklist.md   (the cost drivers)
+│   └── pricing-models.md             (per-account / hourly / fixed / tiered)
+└── outputs/
+    ├── cleanup-scope-template.md
+    ├── cleanup-proposal-template.md
+    ├── cleanup-timeline-template.md
+    └── pricing-estimate-template.md
+```
+
+> 🔗 Module 1 → Module 4: feed Module 1's **Cleanup Plan** and **Risk Assessment**
+> straight into the Cleanup Project Agent.
 
 ---
 
