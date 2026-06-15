@@ -200,6 +200,27 @@ sellable separately.
 
 ---
 
+## ▶ Setup Pack — install as Claude Projects / ChatGPT GPTs (available now)
+
+Turn each agent into a reusable assistant you set up once. Paste-ready instruction files
+for all six agents + a step-by-step guide for Claude Projects and ChatGPT custom GPTs.
+
+**Start here → [`setup/README.md`](./setup/README.md)**
+
+```
+setup/
+├── README.md                     ← Claude Projects + ChatGPT GPT setup guide
+└── agent-instructions/
+    ├── 1-client-onboarding.md    ← paste-ready instructions (per agent)
+    ├── 2-month-end-close.md
+    ├── 3-client-communication.md
+    ├── 4-cleanup-project.md
+    ├── 5-sop-builder.md
+    └── 6-proposal-generator.md
+```
+
+---
+
 ## ▶ Prompt Library — 50 single-task prompts (available now)
 
 Quick, copy-paste prompts for one-off jobs (the module agents are full workflows; the
