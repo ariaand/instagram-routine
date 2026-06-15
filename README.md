@@ -18,12 +18,12 @@ need, and the client-ready outputs they produce.
 | 3 | Client Communication Agent | Planned |
 | **4** | **Cleanup Project Agent** | ✅ Built |
 | 5 | SOP Builder Agent | Planned |
-| 6 | Proposal Generator | Planned |
+| **6** | **Proposal Generator** | ✅ Built |
 | Bonus | QuickBooks Cleanup Toolkit · Content Engine · Discovery Call Assistant | Planned |
 
-We're building **one module at a time**. Modules 1 and 4 form the spine of the MVP:
-onboard a client and diagnose the books, then turn that diagnosis into a sellable,
-profitable cleanup engagement.
+We're building **one module at a time**. Modules 1, 4, and 6 form the spine of the MVP
+and run as one client journey: onboard and diagnose the books (1) → sell the one-time
+cleanup (4) → sell the recurring monthly engagement (6).
 
 ---
 
@@ -78,6 +78,33 @@ module-4-cleanup-project-agent/
 
 > 🔗 Module 1 → Module 4: feed Module 1's **Cleanup Plan** and **Risk Assessment**
 > straight into the Cleanup Project Agent.
+
+---
+
+## ▶ Module 6 — Proposal Generator (available now)
+
+Price the **recurring monthly** engagement (where Module 4 prices the one-time cleanup).
+Three inputs — industry, revenue, complexity — become a recommended service package, a
+client-ready proposal, and an internal pricing recommendation.
+
+**Start here → [`module-6-proposal-generator/README.md`](./module-6-proposal-generator/README.md)**
+
+```
+module-6-proposal-generator/
+├── README.md                         ← module overview + quick start
+├── proposal-generator-agent.md       ← THE copy-paste Agent prompt
+├── example-walkthrough.md            ← worked example (Brightwave Café monthly)
+├── inputs/
+│   ├── proposal-intake-checklist.md  (industry, revenue, complexity)
+│   └── service-packages-and-pricing.md (Starter / Growth / Premium tiers)
+└── outputs/
+    ├── service-package-template.md
+    ├── monthly-proposal-template.md
+    └── pricing-recommendation-template.md
+```
+
+> 🔗 Module 1 → Module 6: feed Module 1's **Risk Assessment** in as the complexity
+> input. And Module 6 is the natural "Option C" that follows a Module 4 cleanup.
 
 ---
 
