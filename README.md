@@ -19,12 +19,12 @@ need, and the client-ready outputs they produce.
 | **4** | **Cleanup Project Agent** | ✅ Built |
 | **5** | **SOP Builder Agent** | ✅ Built |
 | **6** | **Proposal Generator** | ✅ Built |
-| Bonus | QuickBooks Cleanup Toolkit · Content Engine · Discovery Call Assistant | Planned |
+| **Bonus** | **QuickBooks Cleanup Toolkit · Content Engine · Discovery Call Assistant** | ✅ Built |
 
-**All six core agents are built.** Together they run the full client journey: onboard
-and diagnose the books (1) → sell the one-time cleanup (4) → sell the recurring monthly
-engagement (6) → deliver the monthly close (2) → communicate at every touchpoint (3) →
-document and delegate the whole thing (5).
+**All six core agents are built** — plus the three bonus toolkits. Together they run the
+full client journey: onboard and diagnose the books (1) → sell the one-time cleanup (4) →
+sell the recurring monthly engagement (6) → deliver the monthly close (2) → communicate at
+every touchpoint (3) → document and delegate the whole thing (5).
 
 ---
 
@@ -184,6 +184,19 @@ module-5-sop-builder-agent/
 
 > 🔗 Turn Modules 1, 2, and 4's checklists into permanent firm SOPs — and document how
 > your team runs every agent consistently.
+
+---
+
+## ▶ Bonus Toolkits (available now)
+
+Three standalone products that extend the core agents — each usable on its own or
+sellable separately.
+
+**Start here → [`bonus/README.md`](./bonus/README.md)**
+
+- **QuickBooks Cleanup Toolkit** — diagnostic questionnaire, full QBO audit checklist, and a phased cleanup workflow (pairs with Modules 1 & 4).
+- **Bookkeeper Content Engine** — content strategy + AI prompts for Instagram posts, carousels, LinkedIn, and newsletters, with 30 ready ideas and written examples (pairs with Module 3).
+- **AI Discovery Call Assistant** — call script + note template + prompts that turn raw notes into a scope of work, proposal draft, and follow-up email (pairs with Modules 4 & 6).
 
 ---
 
