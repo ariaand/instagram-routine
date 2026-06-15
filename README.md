@@ -15,7 +15,7 @@ need, and the client-ready outputs they produce.
 |--------|------|:------:|
 | **1** | **Client Onboarding Agent** | ✅ Built |
 | **2** | **Month-End Close Agent** | ✅ Built |
-| 3 | Client Communication Agent | Planned |
+| **3** | **Client Communication Agent** | ✅ Built |
 | **4** | **Cleanup Project Agent** | ✅ Built |
 | 5 | SOP Builder Agent | Planned |
 | **6** | **Proposal Generator** | ✅ Built |
@@ -132,6 +132,31 @@ module-2-month-end-close-agent/
 
 > ⚠️ The Agent **suggests and flags** — it does not post to QuickBooks. You verify every
 > entry and post it yourself.
+
+---
+
+## ▶ Module 3 — Client Communication Agent (available now)
+
+The voice of your firm. A 12-email ready-to-send template library **plus** an on-demand
+generator for the everyday client emails: missing-document requests, late-payment
+reminders (first/second/final), monthly report delivery, discovery-call follow-ups, and
+more.
+
+**Start here → [`module-3-client-communication-agent/README.md`](./module-3-client-communication-agent/README.md)**
+
+```
+module-3-client-communication-agent/
+├── README.md                         ← module overview + quick start
+├── client-communication-agent.md     ← THE copy-paste Agent prompt
+├── example-walkthrough.md            ← worked examples (real situations → emails)
+├── inputs/
+│   └── communication-intake-checklist.md
+└── outputs/
+    └── email-template-library.md     (12 ready-to-send templates)
+```
+
+> 🔗 Delivers Module 2's client summary, supports Module 4 & 6 sales follow-ups, and
+> pairs with Module 1's missing-documents list.
 
 ---
 
